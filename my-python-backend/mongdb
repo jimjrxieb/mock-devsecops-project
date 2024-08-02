@@ -1,0 +1,7 @@
+import pymongo
+
+# Replace with your actual MongoDB URI
+MONGO_URI = mongodb+srv://jimmie012506:v5cLBP7dzuY4ysfH@cluster0devsecops.aom7rua.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0devsecops
+
+client = pymongo.MongoClient(MONGO_URI)
+db = client.get_database()
